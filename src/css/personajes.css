@@ -1,0 +1,26 @@
+/* Estilos para las tarjetas de personajes */
+.card {
+    background-color: #3B1E54;
+    border: 1px solid #8E1616;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFB22C;
+    font-size: 1em;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
