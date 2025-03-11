@@ -61,6 +61,7 @@ footer {
 /* Estilos adicionales para mejorar la apariencia */
 a:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 img {
